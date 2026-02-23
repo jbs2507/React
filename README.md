@@ -1,18 +1,61 @@
-# React + Vite
+Tienda de Dulces
+Descripción
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto consiste en una aplicación web desarrollada en React que muestra una tienda de dulces. En la página principal se pueden ver diferentes productos con su imagen y precio.
 
-Currently, two official plugins are available:
+La aplicación permite navegar entre secciones y muestra los productos de manera organizada. Fue desarrollada como práctica para aplicar los conocimientos básicos de React y el uso de componentes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Características Principales
 
-## React Compiler
+Muestra una lista de dulces con imagen y precio.
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Los productos se cargan desde un arreglo y se muestran en pantalla.
 
-Note: This will impact Vite dev & build performances.
+Permite cambiar entre páginas.
 
-## Expanding the ESLint configuration
+Incluye formularios para ingresar datos del cliente y simular un pago.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Diseño adaptable a diferentes tamaños de pantalla.
+
+Organización del proyecto por carpetas.
+
+Interfaz Gráfica
+
+La página principal presenta los productos en tarjetas organizadas en filas. Cada tarjeta contiene:
+
+Imagen del dulce.
+
+Nombre del producto.
+
+Precio.
+
+En la parte inferior se encuentran formularios para ingresar información del usuario y datos de pago. La aplicación tiene un diseño limpio y ordenado utilizando Bootstrap para los estilos.
+
+Arquitectura del Proyecto
+
+El proyecto está dividido en varios componentes que permiten organizar mejor el código.
+
+Estructura de Carpetas
+src/
+ ├── features/
+ │     └── layout/
+ │           └── components/
+ │                ├── Header.jsx
+ │                ├── Content.jsx
+ │                ├── Footer.jsx
+ │                └── Props.jsx
+ ├── shared/
+ │     └── styles/
+ │           ├── App.css
+ │           └── index.css
+ ├── App.jsx
+ └── main.jsx
+
+El archivo principal conecta las diferentes páginas y cada componente cumple una función específica dentro de la aplicación.
+
+Datos Importantes del Autor
+
+Nombre: Juliana Betancur
+Programa: ASDO
+Institución: SENA
+Proyecto académico realizado en el año 2026 in your project.
