@@ -6,13 +6,13 @@ export const Content = () => {
       id: 1,
       nombre: "Chocobarra",
       precio: 2.500,
-      img: "/img/Chocobarra.png",
+      img: "React/public/img/Chocobarra.png",
     },
     {
       id: 2,
       nombre: "Gomitas fresa mix",
       precio: 3.000,
-      img: "/img/Gomita-fresa.png",
+      img: "React/public/img/Gomita-fresa.png",
     },
     {
       id: 3,
@@ -24,13 +24,13 @@ export const Content = () => {
       id: 4,
       nombre: "Cupcake Vainilla",
       precio: 4.000,
-      img: "/img/Cupcake-vainilla.png",
+      img: "React/public/img/Cupcake-vainilla.png",
     },
     {
       id: 5,
       nombre: "Paleta arcoíris",
       precio: 1.500,
-      img: "/img/Paleta-arcoiris.png",
+      img: "React/public/img/Paleta-arcoiris.png",
     },
     {
       id: 6,
