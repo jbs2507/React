@@ -12,14 +12,13 @@ Carrito de Dulces es una aplicación web desarrollada con React y Vite que permi
 - Diseño responsivo básico con CSS y Bootstrap.
 
 ## Interfaz gráfica
-<div align="center">
-<img src="https://jbs2507.github.io/React/img/paleta-arcoiris.png" width="120" />  
-<img src="https://jbs2507.github.io/React/img/cupcake-vainilla.png" width="120" />  
-<img src="https://jbs2507.github.io/React/img/mini-donitas.jpg" width="120" />  
-<img src="https://jbs2507.github.io/React/img/gomita-fresa-mix.png" width="120" />  
-<img src="https://jbs2507.github.io/React/img/galleta-chocochips.png" width="120" />  
-<img src="https://jbs2507.github.io/React/img/chocobarra.png" width="120" />  
-</div>
+La página principal muestra un **carrito de dulces virtual** en el que cada dulce se presenta en una **tarjeta individual**. Cada tarjeta contiene:  
+
+- **Imagen del dulce**, mostrando su apariencia colorida y atractiva.  
+- **Nombre del dulce**, claramente visible debajo de la imagen.  
+- **Precio del dulce**, colocado debajo del nombre para que el usuario pueda identificar el costo rápidamente.  
+
+Las tarjetas están organizadas en filas con suficiente espacio entre ellas, sobre un fondo claro que resalta las imágenes de los productos. La tipografía es moderna y legible, y los botones o enlaces utilizan estilos de Bootstrap para mantener la consistencia. El **Header** incluye el título de la app y la navegación principal, mientras que el **Footer** proporciona información adicional. Toda la interfaz es **responsiva**, adaptándose a dispositivos móviles y escritorio.
 
 ## Arquitectura del Proyecto
 myfirstApp/
