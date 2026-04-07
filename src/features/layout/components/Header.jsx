@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 export const Header = () => {
+  const baseUrl = import.meta.env.BASE_URL;
   return (
     <header className="py-4 bg-dark text-white mb-4 sticky-top">
       <div className="container">
@@ -9,7 +10,7 @@ export const Header = () => {
           <div>
             <div className="d-flex align-items-center gap-2">
               <img
-                src="/img/logo.jpeg"
+                src={`${baseUrl}img/logo.jpeg`}
                 alt="Logo"
                 width="50"
                 height="50"
