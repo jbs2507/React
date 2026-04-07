@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Content = () => {
-  const baseUrl = import.meta.env.BASE_URL;
+  const baseUrl = import.meta.env.PROD ? '/React/' : '';
   const productos = [
     {
       id: 1,

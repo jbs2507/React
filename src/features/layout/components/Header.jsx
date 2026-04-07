@@ -2,7 +2,7 @@ import React from 'react'
 import { NavLink } from "react-router-dom";
 
 export const Header = () => {
-  const baseUrl = import.meta.env.BASE_URL;
+  const baseUrl = import.meta.env.PROD ? '/React/' : '';
   return (
     <header className="py-4 bg-dark text-white mb-4 sticky-top">
       <div className="container">
