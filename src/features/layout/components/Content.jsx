@@ -12,31 +12,31 @@ export const Content = () => {
       id: 2,
       nombre: "Gomitas fresa mix",
       precio: 3.000,
-      img: "/img/Gomita fresa mix.png",
+      img: "/img/Gomita-fresa.png",
     },
     {
       id: 3,
       nombre: "Galleta ChocoChips",
       precio: 1.800,
-      img: "/img/Galleta ChocoChips.png",
+      img: "/img/Galleta-chocoChips.png",
     },
     {
       id: 4,
       nombre: "Cupcake Vainilla",
       precio: 4.000,
-      img: "/img/Cupcake Vainilla.png",
+      img: "/img/Cupcake-vainilla.png",
     },
     {
       id: 5,
       nombre: "Paleta arcoíris",
       precio: 1.500,
-      img: "/img/Paleta arcoiris.png",
+      img: "/img/Paleta-arcoiris.png",
     },
     {
       id: 6,
       nombre: "Mini donitas",
       precio: 3.500,
-      img: "/img/Mini donitas.jpg",
+      img: "/img/Mini-donitas.jpg",
     },
   ];
 
