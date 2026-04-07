@@ -10,5 +10,5 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/React/"
+  base: process.env.NODE_ENV === 'production' ? '/React/' : '/',
 })
