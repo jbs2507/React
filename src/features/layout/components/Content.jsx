@@ -1,43 +1,42 @@
 import React from 'react'
 
 export const Content = () => {
-  const baseUrl = import.meta.env.BASE_URL;
   const productos = [
     {
       id: 1,
       nombre: "Chocobarra",
       precio: 2.500,
-      img: `${baseUrl}img/Chocobarra.png`,
+      img: "/img/Chocobarra.png",
     },
     {
       id: 2,
       nombre: "Gomitas fresa mix",
       precio: 3.000,
-      img: `${baseUrl}img/Gomita-fresa.png`,
+      img: "/img/Gomita-fresa.png",
     },
     {
       id: 3,
       nombre: "Galleta ChocoChips",
       precio: 1.800,
-      img: `${baseUrl}img/Galleta-chocoChips.png`,
+      img: "/img/Galleta-chocoChips.png",
     },
     {
       id: 4,
       nombre: "Cupcake Vainilla",
       precio: 4.000,
-      img: `${baseUrl}img/Cupcake-vainilla.png`,
+      img: "/img/Cupcake-vainilla.png",
     },
     {
       id: 5,
       nombre: "Paleta arcoíris",
       precio: 1.500,
-      img: `${baseUrl}img/Paleta-arcoiris.png`,
+      img: "/img/Paleta-arcoiris.png",
     },
     {
       id: 6,
       nombre: "Mini donitas",
       precio: 3.500,
-      img: `${baseUrl}img/Mini-donitas.jpg`,
+      img: "/img/Mini-donitas.jpg",
     },
   ];
 
